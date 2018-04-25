@@ -34,6 +34,8 @@ I took some code I could find and started messing around with it to see what par
 
 I found that making my `Intro Window` a JLabel wouldn't allow the output text(the HTML code) to be copy/pastable - so I looked into other options and found `TextArea` to be a useful alternative.
 
+*In addition to this, JLabel would read in and implement HTML code - so in the long run, this is a lot better as I would have had to find a fix for that. TextArea doesn't read in and implement HTML code, so when we run a string with HTML code into our TextArea, the HTML code will be visible for our user to copy.*
+
 
 **This is the code I have now posted:**
 
