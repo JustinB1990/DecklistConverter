@@ -58,6 +58,41 @@ His `main` function currently produces the String of HTML code we need.
 #### *new updates will be added soon.*
 
 ---
-
+ ### Updates 5/3/2016
+ 
+ Danny has completed his side of the code.
+ He has already implemented Maven into his code allowing him to create an executable JAR file.
+ 
+ I have installed Maven onto my machine and successfully built his code.
+ This was probably the most difficult part as I am running a different version of JAVA on my computer.
+ I had to look into editing his .pom file.
+ 
+ I then edited his code and combined everything into our finished project which I will now be updating.
+ 
+ There are a few things left to do.
+ 
+ * Right now, when a person plugs in a decklist, they usually format it as such:
+ 4 First Card
+ 3 Second Card
+ 4 Third Card
+ 2 Fourth Card
+ 
+  and the code just removes the first two characters in each string and links each card to their proper webpage
+  
+  I want to store that number a put it before the linked card so it appears as such:
+  
+  4 <linked html code>
+  3 <linked html code>
+  .
+  .
+  .
+  
+  * I also want to wrap the entire code in a table so that it appears nice when pasted into a webpage.
+  
+  Small changes like this will give the project a more *finished* feel to it.
+  
+  Aside from that, this is pretty much completed.
+  
+  ---
 
 
