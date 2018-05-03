@@ -1,5 +1,3 @@
-package com.company;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -7,7 +5,7 @@ import java.awt.event.ActionListener;
 
 // This will be the input window where our user will give us their decklist.
 
-public class DecklistInputWindow extends JOptionPane {
+public class DeckInputWindow extends JOptionPane {
 
     //Method that will return the String our user inputs.
     public String showDecklistInput(final String newDecklist){
