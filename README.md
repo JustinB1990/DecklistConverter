@@ -58,7 +58,7 @@ His `main` function currently produces the String of HTML code we need.
 #### *new updates will be added soon.*
 
 ---
- ### Updates 5/3/2016
+ ### Updates 5/3/2018
  
  Danny has completed his side of the code.
  He has already implemented Maven into his code allowing him to create an executable JAR file.
@@ -72,19 +72,28 @@ His `main` function currently produces the String of HTML code we need.
  There are a few things left to do.
  
  * Right now, when a person plugs in a decklist, they usually format it as such:
+ 
  4 First Card
+ 
  3 Second Card
+ 
  4 Third Card
+ 
  2 Fourth Card
+ 
  
   and the code just removes the first two characters in each string and links each card to their proper webpage
   
-  I want to store that number a put it before the linked card so it appears as such:
+  I want to store that number and put it before the linked card so it appears as such:
   
-  4 <linked html code>
-  3 <linked html code>
+  4 linked html code for First Card
+ 
+  3 linked html code for Second Card
+ 
   .
+  
   .
+  
   .
   
   * I also want to wrap the entire code in a table so that it appears nice when pasted into a webpage.
